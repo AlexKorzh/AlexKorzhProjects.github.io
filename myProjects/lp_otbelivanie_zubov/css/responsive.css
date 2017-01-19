@@ -1,0 +1,772 @@
+/*---MIXIN---*/
+@media screen and (max-width: 1920px) and (max-height: 1000px) {
+  .dialogs .popup {
+    height: 90%; }
+  .dialogs #parent_popup .parent-popups, .dialogs #parent_popup_robo .parent-popups {
+    height: 90%; } }
+@media screen and (max-width: 1810px) {
+  .dialogs .popup {
+    width: 1400px; }
+  .dialogs #parent_popup .parent-popups, .dialogs #parent_popup_robo .parent-popups {
+    width: 100%; } }
+@media screen and (max-width: 1400px) {
+  .dialogs .popup {
+    width: 1200px; } }
+@media screen and (max-width: 1600px) {
+  /*--GENDER--*/
+  .gender .gender-wrp .img .text {
+    width: 250px;
+    padding-top: 75px; }
+    .gender .gender-wrp .img .text.t1 {
+      right: 15px; }
+    .gender .gender-wrp .img .text.t2 {
+      left: 15px; }
+    .gender .gender-wrp .img .text h3 {
+      font-size: 20px;
+      padding-bottom: 15px; }
+    .gender .gender-wrp .img .text p {
+      font-size: 14px;
+      line-height: 20px; } }
+@media screen and (max-width: 1200px) {
+  .wrap {
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%; }
+
+  h1 {
+    font-size: 45px;
+    line-height: 60px; }
+
+  /*--HEADER--*/
+  header {
+    height: auto;
+    min-height: 500px;
+    padding-bottom: 80px; }
+    header .top-head {
+      padding-top: 15px;
+      padding-left: 15px;
+      padding-right: 15px; }
+      header .top-head .logo {
+        padding-top: 8px;
+        width: 200px; }
+      header .top-head .relations-wrp .phone {
+        font-size: 20px; }
+      header .top-head .relations-wrp .social-wrp {
+        margin-left: 15px;
+        margin-right: 30px; }
+      header .top-head .relations-wrp .version a {
+        width: 31px;
+        line-height: 31px; }
+    header .main-offer {
+      padding-top: 200px;
+      position: static;
+      width: 100%;
+      margin-left: auto; }
+      header .main-offer p {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 18px;
+        line-height: 25px; }
+      header .main-offer .play {
+        display: block; }
+    header .video {
+      background: url(../img/video-bg-1200.jpg) no-repeat center top; }
+      header .video video {
+        display: none !important; }
+
+  .social-wrp a {
+    width: 35px;
+    height: 35px;
+    background-size: 225px !important; }
+    .social-wrp a.viber {
+      background-position: center left -48px; }
+    .social-wrp a.insta {
+      background-position: center left -95px; }
+    .social-wrp a.vk {
+      background-position: center left -142px; }
+
+  /*--RESULT--*/
+  .result {
+    padding-top: 60px;
+    padding-bottom: 80px; }
+    .result .result-wrp .result-slider .compare, .result .result-wrp .result-slider .box {
+      float: none;
+      display: block;
+      margin: 0 auto; }
+    .result .result-wrp .result-slider .compare {
+      margin-bottom: 10px; }
+
+  /*--WHY--*/
+  .why .why-wrp .row {
+    width: 90%;
+    margin: 0 auto; }
+    .why .why-wrp .row:nth-child(odd) .img img {
+      right: 0 !important; }
+    .why .why-wrp .row:nth-child(odd) .text .text-wrp {
+      padding-left: 30px; }
+    .why .why-wrp .row:nth-child(even) .img img {
+      left: 0; }
+    .why .why-wrp .row:nth-child(even) .text .text-wrp {
+      padding-right: 30px; }
+    .why .why-wrp .row .img {
+      width: 50%;
+      height: 340px;
+      top: 0 !important; }
+      .why .why-wrp .row .img img {
+        position: absolute;
+        height: 100%;
+        width: auto; }
+    .why .why-wrp .row .text {
+      margin-top: 0 !important;
+      width: 50%; }
+      .why .why-wrp .row .text .text-wrp h3 {
+        padding-bottom: 20px;
+        font-size: 18px;
+        white-space: normal; }
+      .why .why-wrp .row .text .text-wrp p {
+        font-size: 14px;
+        white-space: normal; }
+
+  /*--WAY--*/
+  .way {
+    background: url(../img/way-bg-responsive.jpg) no-repeat center top; }
+
+  /*--HOW--*/
+  .how {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background-size: cover; }
+    .how .how-wrp .item {
+      width: 45%;
+      margin: 20px 2.5%; }
+      .how .how-wrp .item p {
+        white-space: normal; }
+
+  /*--GENDER--*/
+  .gender .gender-wrp .img {
+    width: 100%; }
+    .gender .gender-wrp .img .text {
+      top: auto;
+      bottom: 10%; }
+
+  /*--ORDER--*/
+  .order h2 {
+    white-space: normal;
+    font-size: 30px;
+    line-height: 40px; }
+
+  .order-wrp .img, .order-wrp .text {
+    width: 49%; }
+  .order-wrp .img {
+    margin-right: 2%; }
+  .order-wrp .text {
+    padding-top: 0px; }
+    .order-wrp .text .title {
+      font-size: 25px; }
+    .order-wrp .text h3 {
+      padding-bottom: 10px; }
+    .order-wrp .text .producer {
+      font-size: 16px; }
+    .order-wrp .text p.semibold {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 14px;
+      white-space: normal; }
+  .order-wrp .form-wrp .radio-wrp {
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: 25px; }
+
+  /*--ANSWER--*/
+  .answer .answer-wrp .item h3 {
+    padding-left: 35px; }
+  .answer .answer-wrp .item p {
+    margin-left: 35px; }
+
+  /*--CONTACTS--*/
+  .contacts .contacts-wrp {
+    padding-left: 40px; }
+
+  /*--POPUP--*/
+  .dialogs .popup {
+    width: 100%; }
+    .dialogs .popup .order-wrp {
+      width: 96%;
+      padding-left: 2%;
+      padding-right: 2%; } }
+@media screen and (max-width: 880px) {
+  h1 {
+    font-size: 35px;
+    line-height: 45px; }
+
+  header .top-head {
+    text-align: center; }
+    header .top-head .logo, header .top-head .relations-wrp {
+      float: none; }
+    header .top-head .logo {
+      margin: 0 auto 30px; }
+  header .main-offer {
+    padding-top: 120px; }
+    header .main-offer p {
+      font-size: 16px;
+      line-height: 22px; }
+
+  /*--WHY--*/
+  .why {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    .why .why-wrp .row {
+      width: 100%;
+      height: auto; }
+      .why .why-wrp .row:last-child {
+        margin-bottom: 0; }
+      .why .why-wrp .row .img, .why .why-wrp .row .text {
+        float: none !important;
+        width: 100%;
+        display: block;
+        height: 100%;
+        margin: 0 auto !important; }
+      .why .why-wrp .row .img {
+        height: auto; }
+        .why .why-wrp .row .img img {
+          position: static;
+          margin: 0 auto;
+          width: 100%;
+          height: auto; }
+      .why .why-wrp .row .text {
+        padding-top: 40px;
+        padding-bottom: 30px;
+        min-height: 1px; }
+        .why .why-wrp .row .text.t4 {
+          padding-bottom: 0px; }
+        .why .why-wrp .row .text .text-wrp {
+          padding: 0 !important;
+          width: 100%;
+          position: static;
+          top: 0%;
+          left: 0%;
+          -moz-transform: translate(0%, 0%);
+          -webkit-transform: translate(0%, 0%);
+          -o-transform: translate(0%, 0%);
+          -ms-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+          text-align: center; }
+          .why .why-wrp .row .text .text-wrp h3 {
+            font-size: 20px; }
+          .why .why-wrp .row .text .text-wrp p {
+            font-size: 16px; }
+
+  /*--WAY--*/
+  .way {
+    background-position: left top; }
+
+  /*--PLUSES INFO--*/
+  .pluses.info .item {
+    width: 30%;
+    margin-left: 3%; }
+    .pluses.info .item:last-child {
+      margin-right: 0; }
+    .pluses.info .item span.title {
+      font-size: 30px;
+      line-height: 30px; }
+    .pluses.info .item p {
+      font-size: 14px;
+      line-height: 20px;
+      white-space: normal; }
+
+  /*--ORDER--*/
+  .order h2 {
+    font-size: 25px;
+    line-height: 30px; }
+
+  .order-wrp .img, .order-wrp .text {
+    width: 100%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto; }
+  .order-wrp .text {
+    text-align: center;
+    padding-top: 20px; }
+    .order-wrp .text p {
+      line-height: 20px !important; }
+    .order-wrp .text p.ico {
+      display: inline-block; }
+    .order-wrp .text p.semibold {
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto; }
+  .order-wrp .form-wrp {
+    padding-top: 40px; }
+    .order-wrp .form-wrp input[type="text"], .order-wrp .form-wrp .radio-wrp, .order-wrp .form-wrp button {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    .order-wrp .form-wrp input[type="text"] {
+      margin-bottom: 30px; }
+    .order-wrp .form-wrp .radio-wrp {
+      margin-top: 0px; }
+
+  /*--INStAGRAM--*/
+  .instagram .insta-block .img-wrp .img {
+    width: 25%; }
+
+  /*--CONTACTS--*/
+  .contacts .contacts-wrp {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    float: none; }
+  .contacts .map {
+    width: 100%;
+    position: relative !important;
+    height: 500px; }
+
+  /*--POPUP--*/
+  .dialogs .popup h2 {
+    font-size: 30px;
+    line-height: 40px; }
+  .dialogs .popup .order-wrp {
+    padding-top: 70px;
+    padding-bottom: 60px; } }
+@media screen and (max-width: 780px) {
+  .certificate .certificate-slider-wrp .bx-wrapper .bx-viewport {
+    padding: 0; }
+  .certificate .certificate-slider-wrp .item a {
+    box-shadow: none; } }
+@media screen and (max-width: 720px) {
+  h1 {
+    font-size: 30px;
+    line-height: 35px; }
+
+  header .main-offer p {
+    font-size: 14px;
+    line-height: 20px; }
+
+  /*--WHY--*/
+  .why h2 {
+    font-size: 30px;
+    line-height: 40px; }
+
+  /*--WAY--*/
+  .way {
+    background-size: cover; }
+    .way h2 {
+      font-size: 30px;
+      line-height: 40px; }
+    .way .way-wrp {
+      float: none;
+      padding-right: 0px;
+      padding-left: 20px; }
+
+  /*--GENDER--*/
+  .gender h2 {
+    font-size: 30px;
+    line-height: 40px; }
+
+  /*--POPUP--*/
+  .dialogs .popup h2 {
+    font-size: 25px;
+    line-height: 30px;
+    padding-bottom: 40px !important; } }
+@media screen and (max-width: 640px) {
+  h1 {
+    font-size: 25px;
+    line-height: 30px;
+    white-space: normal; }
+
+  header {
+    padding-bottom: 60px; }
+    header .top-head .logo {
+      margin: 0 auto 20px; }
+    header .top-head .relations-wrp .phone {
+      display: block;
+      margin-bottom: 20px; }
+    header .top-head .relations-wrp .social-wrp {
+      margin-left: auto; }
+    header .main-offer {
+      width: 96%;
+      padding-left: 2%;
+      padding-right: 2%;
+      padding-top: 80px; }
+      header .main-offer p {
+        white-space: normal; }
+    header .video {
+      background: url(../img/video-bg-600.jpg) no-repeat center top;
+      background-size: cover; }
+
+  /*--PLUSES--*/
+  .pluses .item p {
+    white-space: normal;
+    font-size: 14px;
+    line-height: 20px; }
+
+  /*--RESULT--*/
+  .result {
+    padding-bottom: 60px; }
+    .result h2 {
+      font-size: 26px;
+      line-height: 35px; }
+    .result .result-wrp {
+      margin-top: 40px; }
+      .result .result-wrp .result-slider .compare, .result .result-wrp .result-slider .box {
+        width: 400px; }
+      .result .result-wrp .bx-wrapper {
+        padding-bottom: 70px; }
+        .result .result-wrp .bx-wrapper .bx-controls .bx-controls-direction .bx-prev, .result .result-wrp .bx-wrapper .bx-controls .bx-controls-direction .bx-next {
+          top: auto;
+          bottom: 0; }
+        .result .result-wrp .bx-wrapper .bx-controls .bx-controls-direction .bx-prev {
+          left: 22px; }
+        .result .result-wrp .bx-wrapper .bx-controls .bx-controls-direction .bx-next {
+          right: 22px; }
+
+  /*--WHY--*/
+  .why h2 {
+    font-size: 23px;
+    line-height: 30px; }
+
+  /*--WAY--*/
+  .way {
+    background-position: top right;
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    .way h2 {
+      font-size: 25px;
+      line-height: 30px; }
+    .way .way-wrp {
+      padding-top: 50px;
+      padding-left: 0px;
+      width: 100%;
+      text-align: center; }
+      .way .way-wrp .item {
+        width: 45%;
+        display: inline-block;
+        margin: 30px 2.2%;
+        vertical-align: top;
+        margin-bottom: 30px !important; }
+        .way .way-wrp .item:last-child {
+          margin-bottom: 0px; }
+        .way .way-wrp .item .ico, .way .way-wrp .item .text {
+          display: block; }
+        .way .way-wrp .item .ico {
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 20px; }
+          .way .way-wrp .item .ico:after {
+            display: none; }
+        .way .way-wrp .item .text p {
+          white-space: normal; }
+
+  /*--HOW--*/
+  .how h2 {
+    font-size: 24px;
+    line-height: 35px; }
+  .how .how-wrp .item {
+    width: 100%;
+    float: none;
+    margin: 0px auto 40px; }
+
+  /*--ATTENTION--*/
+  .attention p {
+    font-size: 14px;
+    line-height: 20px;
+    white-space: normal; }
+
+  /*--GENDER--*/
+  .gender {
+    padding-top: 60px; }
+    .gender h2 {
+      font-size: 24px;
+      line-height: 28px; }
+    .gender .gender-wrp {
+      padding-top: 40px; }
+      .gender .gender-wrp .img .text {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        position: static; }
+        .gender .gender-wrp .img .text.t2 {
+          background: url(../img/gender-ico2-black.png) no-repeat center top; }
+        .gender .gender-wrp .img .text h3, .gender .gender-wrp .img .text p {
+          color: #141414 !important; }
+
+  /*--PLUSES INFO--*/
+  .pluses.info {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    .pluses.info .pluses-wrp .item {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 40px; }
+      .pluses.info .pluses-wrp .item:last-child {
+        margin-bottom: 0px; }
+
+  /*--ORDER--*/
+  .order {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+    .order h2 {
+      font-size: 18px;
+      line-height: 25px; }
+
+  .order-wrp .text p.semibold {
+    margin-bottom: 20px; }
+  .order-wrp .text p.ico {
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-left: 0;
+    background-position: center top 6px !important; }
+    .order-wrp .text p.ico.i1 {
+      margin-bottom: 10px; }
+
+  /*--CARE--*/
+  .care {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-size: cover;
+    background-position: center left -400px; }
+    .care p {
+      white-space: normal; }
+
+  /*--INStAGRAM--*/
+  .instagram {
+    padding-top: 60px;
+    padding-bottom: 0px; }
+    .instagram h2 {
+      font-size: 32px;
+      line-height: 40px; }
+    .instagram .insta-block .img-wrp .img {
+      width: 33.33%; }
+    .instagram .insta-block .button {
+      width: 300px;
+      margin-left: -150px;
+      letter-spacing: 0; }
+      .instagram .insta-block .button:before {
+        left: 50%;
+        margin-left: -33.5px;
+        top: -60px; }
+
+  /*--ANSWER--*/
+  .answer {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    .answer h2 {
+      font-size: 30px;
+      line-height: 40px; }
+    .answer .answer-wrp {
+      padding-top: 40px; }
+      .answer .answer-wrp .item h3 {
+        font-size: 15px;
+        line-height: 20px; }
+      .answer .answer-wrp .item p {
+        font-size: 14px;
+        line-height: 20px; }
+
+  /*--CONTACTS--*/
+  .contacts .contacts-wrp {
+    padding-left: 20px; }
+
+  /*--POPUP--*/
+  .dialogs > div .close {
+    width: 26px;
+    height: 26px;
+    right: 20px;
+    top: 20px;
+    background-size: 26px; }
+  .dialogs .popup h2 {
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 15px !important; }
+  .dialogs .popup .order-wrp {
+    padding-top: 60px; }
+  .dialogs #parent_popup .parent-popups .text-wrp h2, .dialogs #parent_popup_robo .parent-popups .text-wrp h2 {
+    font-size: 30px;
+    line-height: 30px;
+    padding-bottom: 10px; }
+  .dialogs #parent_popup .parent-popups .text-wrp p, .dialogs #parent_popup_robo .parent-popups .text-wrp p {
+    font-size: 16px;
+    line-height: 20px; } }
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 22px; }
+
+  header {
+    padding-bottom: 60px; }
+    header .top-head .relations-wrp .social-wrp {
+      margin-right: auto; }
+    header .top-head .relations-wrp .version {
+      margin-top: 20px;
+      display: block; }
+    header .main-offer {
+      padding-top: 40px; }
+      header .main-offer .button {
+        width: 300px;
+        letter-spacing: 0; }
+
+  /*--PLUSES--*/
+  .pluses {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    .pluses .item {
+      width: 100%;
+      margin-bottom: 40px; }
+      .pluses .item:last-child {
+        margin-bottom: 0; }
+
+  /*--RESULT--*/
+  .result h2 {
+    font-size: 20px;
+    line-height: 25px;
+    white-space: normal; }
+  .result .result-wrp .result-slider .compare, .result .result-wrp .result-slider .box {
+    width: 300px; }
+  .result .result-wrp .result-slider .box {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    height: 300px;
+    z-index: 2; }
+    .result .result-wrp .result-slider .box img {
+      z-index: -1; }
+    .result .result-wrp .result-slider .box .search-ico {
+      right: 10px;
+      width: 30px;
+      height: 30px;
+      background-size: 19px; }
+
+  /*--WHY--*/
+  .why h2 {
+    font-size: 20px; }
+  .why .why-wrp {
+    padding-top: 40px; }
+    .why .why-wrp .row .text .text-wrp h3 {
+      font-size: 15px;
+      line-height: 20px; }
+    .why .why-wrp .row .text .text-wrp p {
+      font-size: 14px;
+      line-height: 20px; }
+
+  /*--WAY--*/
+  .way .way-wrp .item {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 50px !important; }
+    .way .way-wrp .item:last-child {
+      margin-bottom: 0px !important; }
+
+  /*--HOW--*/
+  .how h2 {
+    font-size: 20px;
+    line-height: 30px;
+    white-space: normal; }
+
+  /*--GENDER--*/
+  .gender h2 {
+    font-size: 20px;
+    line-height: 25px; }
+
+  /*--ORDER--*/
+  .order h2 {
+    font-size: 16px;
+    line-height: 24px; }
+
+  .order-wrp .form-wrp input[type="text"], .order-wrp .form-wrp .radio-wrp, .order-wrp .form-wrp button {
+    width: 100%; }
+
+  /*--CARE--*/
+  .care h2 {
+    font-size: 24px;
+    line-height: 30px; }
+
+  /*--CERTIFICATE--*/
+  .certificate {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    .certificate .certificate-slider-wrp {
+      padding-bottom: 60px; }
+      .certificate .certificate-slider-wrp .bx-controls .bx-controls-direction .bx-prev, .certificate .certificate-slider-wrp .bx-controls .bx-controls-direction .bx-next {
+        top: auto;
+        bottom: 0; }
+      .certificate .certificate-slider-wrp .bx-controls .bx-controls-direction .bx-prev {
+        left: 22px; }
+      .certificate .certificate-slider-wrp .bx-controls .bx-controls-direction .bx-next {
+        right: 22px; }
+
+  /*--INStAGRAM--*/
+  .instagram .insta-block .img-wrp .img {
+    width: 50%; }
+
+  /*--ANSWER--*/
+  .answer h2 {
+    font-size: 25px;
+    line-height: 30px; }
+
+  /*--CONTACTS--*/
+  .contacts .contacts-wrp p {
+    font-size: 14px; }
+    .contacts .contacts-wrp p.adress {
+      font-size: 14px; }
+      .contacts .contacts-wrp p.adress.a1 {
+        margin-top: 30px;
+        margin-bottom: 30px; }
+  .contacts .contacts-wrp a.phone {
+    margin-top: 15px; }
+  .contacts .contacts-wrp .social-wrp {
+    margin-top: 40px; }
+
+  /*--POPUP--*/
+  .dialogs #parent_popup .parent-popups .text-wrp h2, .dialogs #parent_popup_robo .parent-popups .text-wrp h2 {
+    font-size: 25px; } }
+@media screen and (max-width: 370px) {
+  h1 {
+    font-size: 20px; }
+
+  /*--RESULT--*/
+  .result h2 {
+    font-size: 18px; }
+
+  /*--WHY--*/
+  .why h2 {
+    font-size: 16px;
+    line-height: 25px; }
+
+  /*--HOW--*/
+  .how {
+    padding-bottom: 60px; }
+    .how h2 {
+      font-size: 17px;
+      line-height: 25px; }
+    .how .how-wrp {
+      padding-top: 40px; }
+      .how .how-wrp .item h3 {
+        font-size: 16px;
+        line-height: 20px; }
+      .how .how-wrp .item p {
+        font-size: 14px;
+        line-height: 20px; }
+
+  /*--GENDER--*/
+  .gender h2 {
+    max-width: 90%;
+    font-size: 18px;
+    margin: 0 auto;
+    white-space: normal; }
+
+  /*--ORDER--*/
+  .order-wrp .form-wrp .radio-wrp label {
+    padding-left: 25px;
+    font-size: 14px; }
+
+  /*--POPUPS--*/
+  .dialogs #parent_popup .parent-popups .text-wrp, .dialogs #parent_popup_robo .parent-popups .text-wrp {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 10px; } }
+@media screen and (max-width: 1200px) and (max-height: 600px) {
+  .contacts .map {
+    height: 300px; } }

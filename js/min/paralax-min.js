@@ -1,0 +1,1 @@
+function parallax(){var a=$(window).scrollTop();$(".paralax_1").css("top",-(.6*a)+"px")}$(window).scroll(function(a){parallax()});

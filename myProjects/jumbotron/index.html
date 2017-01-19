@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="css/responsive.css" rel="stylesheet" type="text/css">
+	<link href="css/jquery.selectBox.css" rel="stylesheet" type="text/css">
+	<title>Бесплатно увеличим доход вашей аптеки</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/min/main-min.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="top-head">
+				<div class="wrap clear">
+					<div class="left top">
+						<a class="site" href="#">Vapteke<span>.com</span></a>
+						<ul class="nav">
+							<li><a href="#forwhat">Для чего?</a></li>
+							<li><a href="#how">Как это работает?</a></li>
+							<li><a href="#contacts">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="right top">
+						<div class="phone-wrp">
+							<a class="phone" href="#">8 495 495 45 49</a>
+							<span class="callback open-callback-form">Перезвоните мне</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header">
+				<div class="wrap clear">
+					<div class="main right">
+						<h1>Бесплатно увеличим доход вашей аптеки</h1>
+						<div class="form-wrp">
+							<p>Заполните форму и получите готовое решение, которое поможет <span class="discount">увеличить продажи до 45% </span></p>
+							<form id="form1" method="POST" action="javascript:void(0);" onSubmit="ajaxsend_form('1');">
+								<div class="field-wrap">
+									<input type="hidden" name="form[Форма]" value="Получить готовое решение">
+									<input type="text" name="name[Имя]" placeholder="Ваше имя">
+									<span class="border"></span>
+									<input type="text" name="phone[Телефон]" placeholder="Телефон" data-required="true">
+									<span class="border"></span>
+									<input type="text" name="email[Email]" placeholder="Email">
+								</div>
+								<button type="submit">отправить</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="info" id="forwhat">
+			<div class="wrap">
+				<h2>Зачем мне это нужно?</h2>
+				<div class="info-wrp clear">
+					<div class="item i1">О вашей аптеке 
+					плохо знают вокруге</div>
+					<div class="item i2">Ее посещаемость ниже 
+					чем у конкурентов</div>
+					<div class="item i3">Низкий товароооборот делает
+					цены в аптеке неконкурентными</div>
+					<div class="item i4">У нее нет рекламных
+					возможностей, которые может
+					позволить себе крупная аптека</div>
+				</div>
+				<div class="buttons center">
+					<a href="#pluses" class="button smooth">Решить проблему</a>
+					<a href="#how" class="blue-button smooth">как это работает?</a>
+				</div>
+			</div>
+		</section>
+		<section class="pluses" id="pluses">
+			<div class="wrap">
+				<div class="top">
+					<h3>Хватит мучаться!</h3>
+					<p>С помощью инновационных технологий мы поможем вашей аптеке</p>
+				</div>	
+				<div class="pluses-wrp">
+					<div class="pluses-row clear">
+						<div class="img">
+							<img src="img/pluses-img1.jpg" alt="photo">
+						</div>
+						<div class="text">
+							<h4>ШАГ 01</h4>
+							<p>Увеличить узнаваемость в месте расположения аптеки</p>
+						</div>
+					</div>
+					<div class="pluses-row clear">
+						<div class="img">
+							<img src="img/pluses-img2.jpg" alt="photo">
+						</div>
+						<div class="text">
+							<h4>ШАГ 02</h4>
+							<p>Увеличить количество ежемесячных заказов на 45%</p>
+						</div>
+					</div>
+					<div class="pluses-row clear">
+						<div class="img">
+							<img src="img/pluses-img3.jpg" alt="photo">
+						</div>
+						<div class="text">
+							<h4>ШАГ 03</h4>
+							<p>Увеличить товарооборот, а значит возможность
+							закупки товаров у поставщиков по выгодным ценам</p>
+						</div>
+					</div>
+					<div class="pluses-row clear">
+						<div class="img">
+							<img src="img/pluses-img4.jpg" alt="photo">
+						</div>
+						<div class="text">
+							<h4>ШАГ 04</h4>
+							<p>Отдыхайте! Все остальное за вас сделают передовые
+							технологи! Наша уникальная система сама отыщет
+							нужных клиентов и расскажет вам о вашей аптеке!</p>
+						</div>
+					</div>
+				</div>
+				<div class="form-wrp">
+					<p>Узнайте как увеличить продажи в вашей аптеке</p>
+					<form id="form2" method="POST" action="javascript:void(0);" onSubmit="ajaxsend_form('2');">
+						<div class="field-wrap">
+							<input type="hidden" name="form[Форма]" value="Узнать как увеличить продажи">
+							<input type="text" name="name[Имя]" placeholder="Ваше имя">
+							<span class="border"></span>
+							<input type="text" name="phone[Телефон]" placeholder="Телефон" data-required="true">
+							<span class="border"></span>
+							<input type="text" name="email[Email]" placeholder="Email">
+						</div>
+						<button type="submit">отправить</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		<section class="work" id="how">
+			<div class="wrap">
+				<h2>Как это работает?</h2>
+				<p>Мы отслеживаем более тысячи параметров о ваших потенциальных клиентах</p>
+				<div class="icon-wrp">
+					<div class="icon i1">
+						Месторасположение
+						клиента
+					</div>
+					<div class="icon i2">
+						Возраст
+					</div>
+					<div class="icon i3">
+						 Пол
+					</div>
+					<div class="icon i4">
+						 Средний
+						заработок
+					</div>
+					<div class="icon i5">
+						 Потребность в
+						 улучшении здоровья
+					</div>
+					<div class="icon i6">
+						 И много других
+					</div>				
+				</div>
+			</div>		
+		</section>
+		<section class="yellow">
+			<div class="bottom-row">И предлагаем обратиться именно в вашу аптеку!</div>
+		</section>
+		<section class="partners">
+			 	<h2>С нами работают</h2>
+			 	<div class="items-wrp">
+				 	<a href="#">
+				 		<div class="item i1">
+				 			<img src="img/partners-ico1.jpg" alt="partnersPhoto">
+				 			<div class="bg">
+				 				<div class="info">
+				 					John Hopkins University
+				 				</div>
+				 			</div>
+				 		</div>
+				 	</a>
+				 	<a href="#">	
+				 		<div class="item i2">
+				 			<img src="img/partners-ico2.jpg" alt="partnersPhoto">
+				 			<div class="bg">
+				 				<div class="info">
+				 					Национальный 
+				 					исследовательский 
+				 					медицинский университет 
+				 					имени Н. И. Пирогова
+				 				</div>
+				 			</div>
+				 		</div>
+			 		</a>
+			 		<a href="#">
+				 		<div class="item i3">
+				 			<img src="img/partners-ico3.jpg" alt="partnersPhoto">
+				 			<div class="bg">
+				 				<div class="info">
+				 					Johnson&Johnson
+				 				</div>
+				 			</div>
+				 		</div>
+			 		</a>
+			 		<a href="#">
+				 		<div class="item i4">
+				 			<img src="img/partners-ico4.jpg" alt="partnersPhoto">
+				 			<div class="bg">
+				 				<div class="info">
+				 					Первый Московский государственный медицинский университет имени И. М. Сеченова
+				 				</div>
+				 			</div>
+				 		</div>
+			 		</a>
+			 		<a href="#">
+				 		<div class="item i5">
+				 			<img src="img/partners-ico5.jpg" alt="partnersPhoto">
+				 			<div class="bg">
+				 				<div class="info">
+				 					Минздрав России
+				 				</div>
+				 			</div>
+				 		</div>
+			 		</a>
+			 	</div>
+		</section>
+		<footer class="connect">
+			<div class="wrap">
+				<div class="top">
+					<h3>Заявка на подключение</h3>
+					<p>Для того, чтобы мы рассмотрели возможность подключения вашей аптеки к нашей системе, пожалуйста, заполните форму</p>
+					<p>Или закажите обратный звонок</p>
+					<span class="callback open-callback-form">Перезвоните мне</span>
+				</div>	
+				<div class="form-wrp">
+					<form id="form3" method="POST" action="javascript:void(0);" onSubmit="ajaxsend_form('3');">
+						<div class="row clear">
+							<div class="col-left left">
+								<span>Контактное лицо</span>
+							</div>
+							<div class="col-right right">
+								<div class="field-wrap">
+									<input type="hidden" name="form[Форма]" value="Заявка на подключение">
+									<input type="text" name="name[Имя]" placeholder="Ваше имя">
+									<span class="border"></span>
+									<input type="text" name="phone[Телефон]" placeholder="Телефон" data-required="true">
+									<span class="border"></span>
+									<input type="text" name="email[Email]" placeholder="Email">
+								</div>
+							</div>
+						</div>
+						 <div class="row second clear">
+							<div class="col-left left">
+								<span>Местоположение аптеки</span>
+							</div>
+							<div class="col-right right">
+								<div class="select-wrp">
+									<select name="city[Город]">
+										<option disabled selected>Выберите город</option>
+										<option>Москва</option>
+										<option>Санкт-Петербург</option>
+									</select>
+								</div>
+								<div class="field-wrap">
+										<input type="text" name="pharmacyName[Название аптеки]" placeholder="Название аптеки">
+										<span class="border"></span>
+										<input type="text" name="pharmacyAdress[Адрес]" placeholder="Адрес">
+								</div>
+							</div>
+						</div>
+
+						<div class="row clear">
+							<div class="col-left left">
+								<span>Структура потребления</span>
+							</div>
+							<div class="col-right right">
+								<div class="select-wrp">
+									<select name="structure1[% ЖНВЛП]">
+										<option disabled selected>% ЖНВЛП</option>
+										<option>10%</option>
+										<option>20%</option>
+									</select>
+								</div>
+								<div class="select-wrp">	
+									<select name="structure2[% не включенных в ЖНВЛП]">
+										<option disabled selected>% не включенных в ЖНВЛП</option>
+										<option>10%</option>
+										<option>20%</option>
+									</select>
+								</div>	
+								<div class="select-wrp">
+									<select name="structure3[% БАДов]">
+										<option disabled selected>% БАДов</option>
+										<option>10%</option>
+										<option>20%</option>
+									</select>
+								</div>
+							</div>
+						</div> 
+						<div class="row fourth clear">
+							<div class="col-left left">
+								<span></span>
+							</div>
+							<div class="col-right right">
+								<div class="select-wrp">
+									<select name="structure4[% косметики]">
+										<option disabled selected>% косметики</option>
+										<option>10%</option>
+										<option>20%</option>
+									</select>
+								</div>		
+								<div class="select-wrp">	
+									<select name="structure5[% товаров мед. назначения]">
+										<option disabled selected>% товаров мед. назначения</option>
+										<option>10%</option>
+										<option>20%</option>
+									</select>
+								</div>
+								<div class="select-wrp">	
+									<select name="structure6[% медицинской техники]">
+										<option disabled selected>% медицинской техники</option>
+										<option>10%</option>
+										<option>20%</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="row clear">
+							<div class="col-left left">
+								<span>Ежемесячный оборот</span>
+							</div>
+							<div class="col-right right">
+								<select name="sum[Ежемесячный оборот]">
+									<option disabled selected>Выберите сумму</option>
+									<option>до 500 000 руб</option>
+									<option>до 1 000 000 руб</option>
+									<option>до 1 500 000 руб</option>
+									<option>до 2 000 000 руб</option>
+									<option>до 2 500 000</option>
+									<option>выше 10 000 000 руб</option>
+								</select>
+							</div>
+						</div>
+						<div class="row clear">
+							<div class="col-left left">
+								<span>Система автоматизации</span>
+							</div>
+							<div class="col-right last right">
+								<select name="avtomation-system[Система автоматизации]">
+									<option disabled selected>Выберите систему
+									автоматизации, которую вы используете</option>
+									<option>Cистема 1</option>
+									<option>Cистема 2</option>
+									<option>Cистема 3</option>
+									<option>Cистема 4</option>
+									<option>Cистема 5</option>
+								</select>
+							</div>
+						</div>
+						<button type="submit">отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="under-footer clear" id="contacts">
+				<div class="wrap">
+					<div class="left">
+						<a class="logo" href="#">
+							<img src="img/footer-logo.png" alt="footerLogo">
+						</a>
+						<p>ООО «Ведущие аптечные решения», улица Волхонка, 11с6
+						Резидент инновационного кластера Сколково +
+						Все права защищены © 2016 </p>
+					</div>
+					<div class="right">
+						<div class="phone-wrp">	
+							<a class="phone" href="#">8 495 495 45 49</a>
+							<span class="callback open-callback-form">Перезвоните мне</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="dialogs">
+       	<div class="opacity"></div>
+       	<div class="popup-form callback-form">
+       		<div class="form-wrp">
+				<form id="form4" method="POST" action="javascript:void(0);" onSubmit="ajaxsend_form('4');">
+					<input type="hidden" name="form[Форма]" value="Обратный звонок">
+					<input type="text" name="name[Имя]" placeholder="Ваше имя">
+					<input type="text" name="phone[Телефон]" class="inp-phone" placeholder="Телефон" data-required="true">
+					<button type="submit">Перезвоните мне</button>
+				</form>
+       		</div>
+       	</div>
+        <div class="hide" id="parent_popup">
+          	<div class="close"></div>
+            <div id="popup">
+                <div class="h">Спасибо!</div>
+       	        <div class="text">Мы свяжемся с вами в ближайшее время</div>
+            </div>
+        </div>
+    </div>
+	</div>
+</body>
+</html>
