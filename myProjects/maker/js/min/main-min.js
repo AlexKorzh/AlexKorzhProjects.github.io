@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".sandwich").click(function(){$(this).toggleClass("active"),$(".nav").toggleClass("active")}),$(".nav li a, a.scroll").click(function(){var a=$(this).attr("href"),t=$(a).position().top;return $("html, body").animate({scrollTop:t},1500),!1}),$("a.scroll").click(function(){$(".sandwich").toggleClass("active"),$(".nav").removeClass("active")})});
