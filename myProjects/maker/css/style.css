@@ -121,7 +121,8 @@ header {
         top: 105px;
         left: 0px;
         position: absolute;
-        z-index: 20; }
+        z-index: 20;
+        cursor: pointer; }
         header .top-head nav .sandwich.active span {
           position: absolute; }
           header .top-head nav .sandwich.active span.s1 {
