@@ -1,0 +1,42 @@
+/*--FONTS--*/
+// GothamPro-LIGHT
+@font-face {
+	font-family: 'GothamPro';
+	src: url('../fonts/GothamProLight.eot');
+	src: url('../fonts/GothamProLighteot?#iefix') format('embedded-opentype'),
+	url('../fonts/GothamProLight.woff') format('woff'),
+	url('../fonts/GothamProLight.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+// GothamPro-RGULAR
+@font-face {
+	font-family: 'GothamPro';
+	src: url('../fonts/GothamProRegular.eot');
+	src: url('../fonts/GothamProRegular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/GothamProRegular.woff') format('woff'),
+	url('../fonts/GothamProRegular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+// GothamPro-BOLD
+@font-face {
+	font-family: 'GothamPro';
+	src: url('../fonts/GothamProBold.eot');
+	src: url('../fonts/GothamProBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/GothamProBold.woff') format('woff'),
+	url('../fonts/GothamProBold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+// GothamPro-BOLD
+@font-face {
+	font-family: 'ProximaNova-Light';
+	src: url('../fonts/ProximaNova-Light.eot');
+	src: url('../fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/ProximaNova-Light.woff') format('woff'),
+	url('../fonts/ProximaNova-Light.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
