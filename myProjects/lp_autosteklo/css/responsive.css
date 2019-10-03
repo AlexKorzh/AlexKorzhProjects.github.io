@@ -1,0 +1,496 @@
+@charset "utf-8";
+@media screen and (max-width: 1700px){
+	.blue-box{
+		width: 30%;
+		-moz-box-sizing: border-box;
+	    -webkit-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+	.contacts .map{width: 70%;}
+}
+@media screen and (max-width: 1400px){
+	.blue-box{width: 50%;}
+	.contacts .map{width: 50%;}
+}
+@media screen and (max-width: 1200px){
+	.wrap{
+		width: 96%;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	h3{
+		font-size: 50px;
+	}
+	h4{white-space: normal;}
+	.top-head{
+		text-align: center;
+	}
+	.logo-wrp,.phone-wrp{
+		display: block;
+		text-align: center;
+	}
+	.logo-wrp{
+		margin: 0 auto 20px;
+	}
+	.main{padding-top: 25px;}
+	.car-img .jquery-comparison,.car-img .control{
+		display: none;
+	}
+	.car-img{
+		width: 641px;
+		height: 311px;
+		background: url(../img/car-img-responsive.png) no-repeat center;
+		background-size: 641px 311px; 
+	}
+	header{
+		background: url(../img/header-responsive-bg.jpg) no-repeat center top;
+		background-size: cover; 
+	}
+	header .form-wrp{
+		margin-top: -70px;
+		background-size: cover;
+		position: relative;
+		z-index: 6; 
+	}
+	.form-wrp{
+		padding: 40px 20px 30px 20px;
+	}
+	.form-wrp h2{
+		max-width: 500px;
+		margin:0 auto;
+		padding-bottom: 30px;
+	}
+	.form-wrp .white-row,.form-wrp button{
+		display: block;
+		margin: 0 auto;
+	}
+	.form-wrp .white-row{
+		margin-bottom: 20px;
+	}
+	.form-wrp p{margin-top: 30px;}
+	/*--REASON--*/
+	.reason h2{font-size: 50px;line-height: 50px;}
+	.reason span.unisans-book{font-size: 30px;}
+	.reason .item{width: 50%;}
+	.reason .item .text-wrp{padding: 0 5px;}
+	.reason .item .text-wrp p{white-space: normal;}
+	/*--BRANDS CARS--*/
+	.cars-wrp{
+		text-align: center;
+		padding-top: 80px;
+	}
+	.cars .car{
+		display: inline-block;
+		float: none;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.cars .car .img{padding-top: 60px;}
+	.car-text{
+		max-width: 100%;
+		position: static;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		display: inline-block !important;
+	}
+	.car-text .hover-line,
+	.cars .car .point,
+	.cars .car .img:before{
+		display: none !important;
+	}
+
+
+
+
+
+	/*--GLASS--*/
+	.glass{background-size: cover;}
+	.glass .img{width: 720px;margin:55px auto 0;}
+	.pluses .item{width: 290px;}
+	.pluses .item.i1{left: -100px; bottom: 37px;}
+	.pluses .item.i2{left: 233px; bottom: 58px;}
+	.pluses .item.i3{right: 192px; bottom: -87px;}
+	.pluses .item.i4{right: -100px; bottom: 60px;}
+	.product{padding-top: 160px;}
+	.product .item {width: 49%;}
+	.product .item.i1{margin-right: 2%;}
+	.product .item .img{width: 28% !important; margin-right: 2% !important;}
+	.product .item .text{width: 69% !important;}
+	.product .item .text p{white-space: normal;font-size: 14px;}
+	/*--REVIWES--*/
+	.slider-wrp{
+		width: 100%;
+		-webkit-box-shadow: none;
+    	-moz-box-shadow: none;
+    	box-shadow: none;
+	}
+	.slider-wrp .wrap{
+		width: 96%;
+	    padding-left: 2%;
+	    padding-right: 2%;
+	}
+	.bx-controls-direction{width: 96%;}
+	.bx-prev{left: 5%;}
+	.bx-next{right: 5%;}
+	.person{padding-left: 15px;padding-right: 15px; padding-bottom: 60px;}
+	.reviews-slider .text p{white-space: normal;}
+	/*--WAIT--*/
+	.wait{padding-bottom: 60px;background-size: cover;margin-top: 0;}
+	.wait-wrp{
+		background: transparent;
+		padding-top: 320px;
+		min-height: 180px;
+		text-align: center;
+	}
+	.wait .item{
+		position: static;
+		display: inline-block;
+		vertical-align: top;
+		margin: 3%;
+		width: 31%;
+		text-align: center !important; 
+		padding: 124px 0px 0px 0 !important;
+		background-position: center top !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+	.wait .item p{white-space: normal;}
+	/*--ORANGE-BOX--*/
+	.orange-box h2{font-size: 40px;}
+	.orange-box.come h2 span.unisans-book{font-size: 30px;}
+	/*--POPUPS--*/
+	#parent_popup #popup{
+		width: 600px;
+		margin-left: -300px;
+	}
+}
+
+@media screen and (max-width: 880px){
+	h1{font-size: 32px;}
+	h3{font-size: 40px;}
+	h4{font-size: 25px;}
+	.title{font-size: 23px;}
+	.form-wrp .white-row{
+		width: 100%;
+	}
+	.form-wrp input[type="text"]{
+		width: 33%;
+	}
+	/*--REASON--*/
+	.reason h2{font-size: 40px;}
+	/*--BRANDS--*/
+	.brands .top h2{font-size: 40px;}
+	.brands span.unisans-book{font-size: 30px;}
+	.brands .under-title{font-size:18px; white-space: normal;}
+	/*--SAFY--*/
+	.safy {background-size: cover;}
+	.safy h2{font-size: 50px;}
+	.safy h2 span{font-size: 27px;}
+	.safy .big-number{font-size: 100px;}
+	.safy p, .safy span.title{white-space: normal;margin-bottom: 0;}
+	/*--GLASS--*/
+	.glass{padding-bottom: 60px;}
+	.glass .img{width: 640px;}
+	.pluses,.pluses .item{position: static;}
+	.pluses .item{width: 45%; margin: 2.5%; float: left;}
+	.pluses .item:nth-child(odd){clear: both;}
+	.product{padding-top: 60px;}
+	.product .item{text-align: center;}
+	.product .item .img{width: 170px !important; margin-left: auto !important; margin-right: auto !important; margin-bottom: 20px;}
+	.product .item .text{width: 100% !important;}
+	/*--REVIEWS--*/
+	.reviews-bg{height: auto;background-size: cover; padding-bottom: 60px;}
+	/*--WAIT--*/
+	.wait{
+		padding-top: 60px;
+		background: url(../img/wait-responsive-bg.jpg) no-repeat center top;
+		background-size: cover; 
+	}
+	.wait h2 span.unisans-book,.wait .item p{color: #fff;}
+	.wait-wrp{padding-top: 40px;height: auto;}
+	/*--CONTACTS--*/
+	.blue-box {float: none;width: 100%;padding-top: 120px;padding-bottom: 90px;}
+	.contacts .map{position: relative !important;width: 100%;height: 600px !important;}
+	.contacts-wrp{max-width: 345px;margin: 0 auto;}
+	.contacts-wrp p{display: inline-block;}
+
+}
+
+@media screen and (max-width: 720px){
+	h1{font-size: 28px;}
+	.title{font-size: 20px;}
+	.main-top .under-title{font-size: 15px;}
+	.car-img{
+		width: 474px;
+		height: 238px;
+		background-size: 474px 238px; 
+	}
+	header .form-wrp{margin-top: -50px;}
+	.form-wrp p{white-space: normal;}
+	/*--REASON--*/
+	.reason h2{font-size: 35px;line-height: 40px;}
+	.reason .item .number{position: static;padding-top: 20px;text-align: center;}
+	.reason-wrp,.reason-wrp .row,.reason .item{
+		display: block;
+	}
+	.reason .item .text-wrp{
+		width: 100%;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    -moz-transform: translate(-50%, -50%);
+	    -webkit-transform: translate(-50%, -50%);
+	    -o-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+	    -moz-box-sizing: border-box;
+	    -webkit-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+	.reason .item{width: 100%;}
+	.reason span.unisans-book{font-size: 25px;}
+	/*--SAFY--*/
+	.safy h2{font-size: 40px;}
+	.safy h2 span{font-size: 23px;}
+	.safy .big-number{font-size: 80px;}
+	/*--WAIT--*/
+	.wait .item{width: 100%;}
+	/*--ORANGE-BOX--*/
+	.orange-box h2{font-size: 35px;}
+	.orange-box.come h2 span.unisans-book{font-size: 25px}
+	.orange-box.come p{margin-left:auto;margin-right: auto;}
+}
+@media screen and (max-width: 640px){
+	h1{
+		padding-top: 2px;
+		width: 300px;
+		display: block;
+		margin: 0 auto;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	h1:after{top: 0;}
+	.main-top .title{font-size: 17px;padding-bottom: 5px;}
+	.main{padding-top: 40px;}
+	.logo-wrp .logo{
+		width: 370px;
+		margin: 0 auto;
+	}
+	.logo-wrp .logo img{
+		width: 100%;
+	}
+	.car-img{
+		width: 344px;
+		height: 174px;
+		background-size: 344px 174px; 
+	}
+	header .form-wrp{margin-top: -40px;}
+	.form-wrp h2{
+		font-size: 20px;
+	}
+	.form-wrp .white-row{
+		background-color: transparent;
+		overflow: visible;
+		margin-bottom: 0;
+		box-shadow: none;
+	}
+	.form-wrp input[type="text"]{
+		width: 100%;
+		display: block;
+		margin: 0 auto 30px;
+		border-radius: 30px;
+	}
+	.form-wrp .border{display: none;}
+	/*--ORANGE-BOX--*/
+	.orange-box .item{
+		width: 45%;
+		margin: 2.5%;
+	}
+	.orange-box .item:nth-child(odd){
+		clear: both;
+	}
+	/*--REASON--*/
+	.reason h2{font-size: 26px;line-height: 30px;padding: 0 5px;}
+	.reason span.unisans-book{font-size: 22px;}
+	/*--BRANDS--*/
+	.brands{padding-top: 60px;}
+	.car-text{width: 430px; }
+	.car-text h2{font-size: 40px;line-height: 22px;}
+	.car-text .title.price{font-size: 18px;}
+	.car-text .title.unisans-book{font-size: 16px;}
+	.cars .car .img img{width: 100%;}
+	/*--SAFY--*/
+	.orange-border{text-align: center;padding: 20px 30px;}
+	.safy{padding-top: 180px;padding-bottom: 60px;}
+	.safy h2 span,.safy h2{display: block;padding-left: 10px;}
+	.safy h2{white-space: normal;margin:0 auto;max-width: 100%;text-align: center; text-indent: 10px;}
+	.safy h2 span{text-align: center;text-indent: -10px;}
+	.safy .big-number{max-width: 100%; line-height: 80px;margin-top: 20px;}
+	.safy p, .safy span.title{font-size: 16px;}
+	.safy p.check{max-width: 190px;margin-left: auto;margin-right: auto; font-size: 14px;}
+	/*--GLASS--*/
+	.glass{padding-top: 60px;}
+	.glass h2{font-size: 40px;}
+	.glass h2 span.unisans-book{font-size: 26px;}
+	.glass .img{width: 100%;}
+	.pluses .item{width: 100%;margin: 0 auto 30px;}
+	.pluses .item:last-child{margin-bottom: 0;}
+	.product .item{width: 100%;}
+	.product .item.i1{margin-right: 0;margin-bottom: 35px;}
+	/*--WAIT--*/
+	.wait h2 span.title{font-size: 40px;}
+	.wait h2 span.unisans-book{font-size: 25px;}
+	/*--ORANGE-BOX--*/
+	.orange-box h2{font-size: 30px;white-space: normal;}
+	.orange-box.come h2 span.unisans-book{font-size: 20px}
+	.orange-box.come p{font-size: 14px;padding-top: 10px; padding-bottom: 10px;}
+	/*--POPUPS--*/
+	.dialogs > div .close{
+		width: 30px;
+		height: 30px;
+		background-size: 30px; 
+	}
+	#parent_popup #popup{
+		width: 280px;
+		margin-left: -140px;
+		height: 240px;
+		margin-top: -120px;
+	}
+	#parent_popup #popup h2{
+		font-size: 30px;
+		line-height: 20px;
+	}
+	#parent_popup #popup h2 span{font-size: 16px;}
+	#parent_popup .callback{font-size: 14px;white-space: normal;margin-top: 20px;}
+	
+}
+
+@media screen and (max-width: 550px){
+	/*--ORANGE-BOX--*/
+	.orange-box h2{font-size: 25px;white-space: normal;}
+	.orange-box.come h2 span.unisans-book{font-size: 16px}
+}
+@media screen and (max-width: 450px){
+	h1{
+		font-size: 25px;
+		width: 280px;
+	}
+	.logo-wrp .logo{
+		width: 300px;
+	}
+	.main-top .under-title{font-size: 14px;max-width: 210px;margin:0 auto;}
+	.car-img{
+		width: 242px;
+		height: 132px;
+		background-size: 242px 132px; 
+	}
+	header .form-wrp{margin-top: -30px;}
+	.form-wrp h2{
+		font-size: 18px;
+	}
+	/*--ORANGE-BOX--*/
+	.orange-box .item{
+		width: 100%;
+		margin: 0 auto 30px;
+	}
+	.orange-box .item:last-child{
+		margin-bottom: 0px;
+	}
+	/*--REASON--*/
+	.reason h2{font-size: 25px;max-width: 280px;margin: 0 auto;}
+	.reason span.unisans-book{font-size: 18px;}
+	/*--BRANDS--*/
+	.brands .top h2{font-size: 35px;}
+	.brands span.unisans-book{font-size: 26px;}
+	.brands .under-title{font-size:14px; white-space: normal;}
+	.cars-wrp{padding-top: 60px;}
+	.car-text{width: 100%; }
+	.car-text h2{font-size: 30px;line-height: 19px;}
+	.car-text .title.price{font-size: 16px;max-width: 230px;}
+	.car-text .title.price,
+	.car-text .title.unisans-book{
+		color: #f07f21;
+	}
+	.car-text .title.unisans-book{line-height: 20px;}
+	.car-text .title:after{display: none;}
+	.car-text .title.unisans-book{font-size: 14px;padding: 0;}
+	/*--SAFY--*/
+	.orange-border{width: 240px; padding: 20px 5px;}
+	.safy .big-number{max-width: 100%; line-height: 80px;margin-top: 20px;}
+	/*--GLASS--*/
+	.glass h2{font-size: 35px;}
+	.glass h2 span.unisans-book{font-size: 20px;}
+	/*--REVIEWS--*/
+	.person{padding-left: 10px;padding-right: 10px;}
+	.reviews-slider .name strong{display: block;}
+	.reviews-slider .text p{font-size: 14px;}
+	/*--WAIT--*/
+	.wait h2 span.title{font-size: 35px;}
+	.wait h2 span.unisans-book{font-size: 22px;}
+	/*--ORANGE-BOX--*/
+	.orange-box h2{font-size: 22px;white-space: normal;}
+	.orange-box.come h2 span.unisans-book{font-size: 16px}
+	.orange-box.come p.phone-ico{
+		background-size: 40px;
+		padding-left: 0px;
+		margin-top: 30px;
+		padding-top: 50px;
+		background-position: center top; 
+		white-space: normal;
+	}
+	/*--CONTACTS--*/
+	.contacts-wrp{max-width: 100%;}
+	.contacts .blue-box{
+		padding-top: 90px;
+		padding-bottom: 30px;
+		padding-right:4%;
+	}
+
+}
+
+@media screen and (max-width: 370px){
+	.form-wrp h2{
+		font-size: 16px;
+	}
+	.form-wrp{padding: 40px 10px 30px 10px;}
+	.form-wrp button{width: 100%;}
+	/*--BRANDS--*/
+	.brands .top h2{font-size: 28px;}
+	.brands span.unisans-book{font-size: 20px;}
+	.safy p, .safy span.title{font-size: 14px;}
+	/*--GLASS--*/
+	.glass h2{font-size: 28px;}
+	/*--REVIWES--*/
+	.reviews-slider .img{margin-bottom: 24px;}
+	.bx-controls-direction{top:215px;}
+	/*--ORANGE-BOX--*/
+	.orange-box.come{padding-top: 40px;}
+	.orange-box h2{font-size: 18px;white-space: normal;}
+	.orange-box.come h2 span.unisans-book{font-size: 14px}
+	.orange-box.come p.phone-ico{max-width: 190px;margin-left: auto;margin-right: auto; padding-bottom: 0}
+	/*--CONTACTS--*/
+	.contacts-wrp p{
+		font-size: 14px;
+		background-position: top 2px left !important;
+	}
+}
+@media screen and (max-height: 600px) and (max-width: 1200px){
+	.contacts .map{
+		height: 300px !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

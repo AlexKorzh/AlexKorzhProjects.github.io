@@ -1,0 +1,396 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&subset=cyrillic');
+@font-face {
+  font-family: 'PFDinTextCond';
+  /*src: url('../fonts/PFDinTextCondProMedium.ttf') format('truetype');*/
+  src:url('../fonts/pfdintextcondpro-medium-webfont.eot');
+  src:url('../fonts/pfdintextcondpro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/pfdintextcondpro-medium-webfont.woff') format('woff'),
+      url('../fonts/pfdintextcondpro-medium-webfont.ttf') format('truetype'),
+      url('../fonts/pfdintextcondpro-medium-webfont.svg#pf_din_text_cond_promedium') format('svg');
+  font-style: normal;
+  font-weight: 500;  
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body, html {
+	width:100%;
+	margin:0px;
+	padding:0px;
+	background: #0f0f0f;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.container {
+	max-width: 1920px;
+	overflow-x: hidden;
+	margin: 0 auto;
+    position: relative;
+}
+.wrap {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear:both;
+}
+h2 {
+	color: #fff;
+	font-size: 32px;
+	font-weight: 700;
+	white-space: pre-line;
+}
+input[type="text"], textarea {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #333;
+	font-size: 16px;
+	font-weight: 400;
+	outline: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    -webkit-appearance:none;
+    border: none;
+	border-radius: 0px;
+	resize: none;
+	-webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear; 
+}
+input[type="text"]{
+	width: 370px;
+	height: 45px;
+	padding-left: 18px;
+    text-align: left;
+}
+textarea {
+	height: 115px;
+	padding: 18px;
+}
+input[type=text]::-webkit-input-placeholder {
+	color: #909090;
+}
+input[type=text]:-moz-placeholder { 
+   	color: #909090;
+}
+input[type=text]::-moz-placeholder {  
+   	color: #909090;
+}
+input[type=text]:-ms-input-placeholder { 
+   	color: #909090;
+}
+textarea::-webkit-input-placeholder {
+	color: #909090;
+}
+textarea:-moz-placeholder  {
+	color: #909090;
+}
+textarea::-moz-placeholder {
+	color: #909090;
+}
+textarea:-ms-input-placeholderr {
+	color: #909090;
+}
+button, .button, input[type="submit"]{
+	width: 299px;
+	height: 45px;
+	line-height: 45px;
+	letter-spacing: 0.5px;
+	font-family: 'PFDinTextCond','Roboto Condensed', sans-serif;
+	color: #fff;
+    font-size: 18px;
+	font-weight: 500;
+	position: relative;
+	text-align: center;
+    border: 2px solid #fff;
+	border-radius: 4px;
+	text-decoration: none;
+	outline: none;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: transparent;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear; 
+}
+button:hover, .button:hover, input[type="submit"]:hover {
+	background-color: #e5322d;
+	border-color: #e5322d;
+}
+.skew {
+	-webkit-transform: skewX(-4.3deg); 
+	-moz-transform: skewX(-4.3deg); 
+	-ms-transform: skewX(-4.3deg); 
+	-o-transform: skewX(-4.3deg); 
+	transform: skewX(-4.3deg); 
+}
+/*.skew > * {
+	-webkit-transform: skewX(4.3deg); 
+	-moz-transform: skewX(4.3deg); 
+	-ms-transform: skewX(4.3deg); 
+	-o-transform: skewX(4.3deg); 
+	transform: skewX(4.3deg); 
+}*/
+.logo img{
+	display: block;
+	margin: 0 auto;
+}
+/*--BRANDS--*/
+.brands .item {
+	padding-top: 3.64%;
+	padding-bottom: 3.64%;
+	min-height: 659px;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+.brands:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.brands .item h2 {
+	padding-top: 140px;
+}
+.brands .item.i1 {
+	width: 34.89%;
+	background: url(../img/brands-bg1.jpg) no-repeat center top;
+	z-index: 1;
+}
+.brands .item.i2 {
+	width: 36.45%;
+	margin-left: -3.19%;
+    margin-right: -3.19%;
+	background: url(../img/brands-bg2.png) no-repeat center top;
+	z-index: 2;
+}
+.brands .item.i2 .logo {
+	margin-top: -10px;
+}
+.brands .item.i2 .black-bg {
+	width: calc(100% - 3.07vw);
+	left: 4.3%;
+}
+.brands .item.i3 {
+	width: 35.03%;
+	background: url(../img/brands-bg3.jpg) no-repeat center top;
+	z-index: 1;
+	background-size: cover;
+}
+.brands .item .red-plus {
+	display: block;
+	margin-top: 32px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 32px;
+	height: 32px;
+	background: url(../img/red-plus.png) no-repeat center top;
+}
+.brands .item p {
+	margin-top: 52px;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 25px;
+	white-space: pre-line;
+	opacity: 0;
+	-webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -ms-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+}
+.brands .item .button {
+	position: absolute;
+	z-index: 5;
+	left: 50%;
+	margin-left: -149.5px;
+	bottom: 13%;
+}
+.brands .item .black-bg {
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(25,25,25,0.9);
+    opacity: 0;
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -ms-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+}	
+.brands .item:hover .black-bg,
+.brands .item:hover p{
+	opacity: 1;
+}
+.brands .item:hover .red-plus {
+	display: none;
+}
+/*--PHONE_WRP--*/
+.phone-wrp {
+	padding: 25px 0;
+	background-color: #0f0f0f;
+	text-align: center;
+}
+.phone-wrp span,
+.phone-wrp .phone {
+	display: inline-block;
+	vertical-align: middle;
+	color: #fff;
+}
+.phone-wrp span {
+	font-size: 16px;
+	font-weight: 300;
+}
+.phone-wrp .phone {
+	margin-left: 25px;
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 30px;
+	text-decoration: none;
+	padding-left: 26px;
+	background: url(../img/phone-ico.png) no-repeat center left;
+}
+/*--PLUSES--*/
+.pluses .item {
+	padding-top: 73px;
+	padding-bottom: 73px;
+	min-height: 334px;
+	float: left;
+	text-align: center;
+	background-color: #191919;
+	position: relative;
+	z-index: 1;
+}
+.pluses .item.i1 {
+	width: 34.89%;
+}
+.pluses .item.i2 {
+	width: 36.45%;
+	margin-left: -3.19%;
+    margin-right: -3.19%;
+	z-index: 2;
+	background: url(../img/richter-bg.png) no-repeat center top; 
+}
+.pluses .item.i2 .logo {
+	margin-top: -13px;
+}
+.pluses .item.i3 {
+	width: 35.03%;
+}
+.pluses .item .logo {
+	margin-bottom: 82px;
+}
+.pluses .item p {
+	margin-bottom: 28px;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 25px;
+	white-space: pre-line;
+}
+.pluses .item p:last-child {
+	margin-bottom: 0px;
+}
+/*--CALLBACK--*/
+.callback {
+	padding-top: 77px;
+	padding-bottom: 131px;
+	background: url(../img/callback-bg.jpg) no-repeat center top;
+	text-align: center;
+}
+.callback .form-wrp {
+	width: 770px;
+	padding-top: 67px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.callback form input.phone {
+	margin-left: 26px;
+}
+.callback form textarea {
+	width: 100%;
+	margin-top: 29px;
+}
+.callback form button {
+	margin-top: 50px;
+}
+/*Второй вариант*/
+/*.pluses {
+	width: 100%;
+	display: table;
+	background-color: #191919;
+}
+.pluses-wrp {
+	display: table-row;
+}
+
+.pluses .item {
+	float: none;
+	display: table-cell;
+	padding-left: 5px;
+	padding-right: 5px;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.pluses .item.i1 {
+	width: 35%;
+}
+.pluses .item.i2 {
+	width: 30%;
+	z-index: 2;
+	background-color: #1f1f1f;
+}
+.pluses .item.i2:before {
+	content: "";
+	display: block;
+	width: 121%;
+	height: 100%;
+	background: url(../img/richter-bg.png) no-repeat center top;
+	position: absolute;
+	z-index: -1;
+	background-size:cover;
+	left: -10.875%;
+	top: 0; 
+
+}
+.pluses .item.i3 {
+	width: 35%;
+}*/
+
+
+
+
+
+
+
+
+
+
